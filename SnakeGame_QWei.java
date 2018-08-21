@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 
 public class SnakeGame_QWei extends JFrame
 {
-		
+	//Sets the board and initializes the snake. This file is to be run	
 	Board_QWei myBoard    = new Board_QWei();
 	Snake_QWei mySnake    = new Snake_QWei(myBoard , 40 , 200 , 2);
 	
@@ -28,6 +28,9 @@ public class SnakeGame_QWei extends JFrame
 	}
 	
 	/*
+	Uncomment when human is controlling the snake.
+	The current snake is automated.
+	
 	public void keyListener()
 	{
 		addKeyListener(new KeyAdapter()
