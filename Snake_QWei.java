@@ -1,3 +1,4 @@
+//Creates the snake and determines how it should move
 
 public class Snake_QWei 
 {
